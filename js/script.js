@@ -22,9 +22,8 @@ search.addEventListener('click', (e)=>{
 
         showWeather(city);
 
-        cityInput.value = ""
 
-    console.log(apiKey)
+        cityInput.value = ""
 });
 
 
@@ -47,13 +46,12 @@ const getWeather = async (city)=>{
 
     if(res.status === 200){
         const data = await res.json();
+        console.log(data)
         return data
     } else {
         msgErro.classList.remove('hide');
         weatherData.classList.add("hide");
     }
-    
-
 }
 
 
