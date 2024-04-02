@@ -1,4 +1,4 @@
-const apiKey = "" // chave de api obtida no site https://openweathermap.org
+const apiKey = "185e9da9b33527cbf92f2b08312d746f" // chave de api obtida no site https://openweathermap.org
 
 const cityInput = document.querySelector('#city-input');
 const search = document.querySelector('#search');
